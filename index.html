@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>v14.0 (Estável) | A Máquina: Guia para Decisores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <nav class="nav-container">
+            <div class="nav-menu">
+                <button class="nav-button active" data-page="decisors">Decisores</button>
+                <button class="nav-button" data-page="budget">Orçamento</button>
+                <button class="nav-button" data-page="tariffs">Tarifas</button>
+                <button class="nav-button" data-page="retaliation">Credores</button>
+                <button class="nav-button" data-page="paper">Paper</button>
+            </div>
+        </nav>
+
+        <!-- PÁGINA 1: GUIA PARA DECISORES -->
+        <div id="decisors" class="page-content active">
+            <div class="header">
+                <h1>Guia Estratégico para Decisores</h1>
+                <p>Ações e alocações de capital recomendadas para navegar a crise da ordem americana.</p>
+            </div>
+            <div class="decisors-container">
+                <table class="decision-table">
+                    <thead>
+                        <tr>
+                            <th>Perfil do Decisor</th>
+                            <th>Ação sobre Treasuries</th>
+                            <th>Alocação Estratégica</th>
+                            <th>Racional</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="profile">Governo Chinês (Rival)</td>
+                            <td class="action sell">VENDER (Gradual)</td>
+                            <td>
+                                <ul class="allocation-list">
+                                    <li><strong>50% Ouro:</strong> <span>Hedge contra colapso do dólar.</span></li>
+                                    <li><strong>30% Commodities Estratégicas:</strong> <span>Controle de recursos (energia, metais).</span></li>
+                                    <li><strong>20% Dívida de Países do BRICS+:</strong> <span>Criação de um sistema financeiro alternativo.</span></li>
+                                </ul>
+                            </td>
+                            <td>Minimizar exposição à sanções e usar a venda de Treasuries como arma geopolítica para acelerar a desdolarização.</td>
+                        </tr>
+                        <tr>
+                            <td class="profile">Governo Japonês (Aliado Cativo)</td>
+                            <td class="action hold">MANTER / COMPRAR</td>
+                            <td>
+                                <ul class="allocation-list">
+                                    <li><strong>70% U.S. Treasuries:</strong> <span>Garantia de segurança militar americana.</span></li>
+                                    <li><strong>20% Dívida Soberana Europeia:</strong> <span>Diversificação dentro do bloco ocidental.</span></li>
+                                    <li><strong>10% Investimentos em Defesa:</strong> <span>Aumento da capacidade militar própria.</span></li>
+                                </ul>
+                            </td>
+                            <td>Preso na armadilha da segurança. Vender Treasuries colocaria em risco a proteção militar dos EUA contra a China, forçando uma compra contínua.</td>
+                        </tr>
+                        <tr>
+                            <td class="profile">Fundo Soberano (Ex: Noruega, Arábia Saudita)</td>
+                            <td class="action sell">VENDER (Taticamente)</td>
+                            <td>
+                                <ul class="allocation-list">
+                                    <li><strong>40% Ações Globais (Ex-EUA):</strong> <span>Capturar crescimento em mercados emergentes.</span></li>
+                                    <li><strong>30% Infraestrutura e Energia Renovável:</strong> <span>Ativos reais e tangíveis com fluxo de caixa.</span></li>
+                                    <li><strong>20% Ouro e Metais Preciosos:</strong> <span>Proteção contra inflação e instabilidade.</span></li>
+                                    <li><strong>10% Venture Capital (Tecnologia Não-Americana):</strong> <span>Apostar nos próximos polos de inovação.</span></li>
+                                </ul>
+                            </td>
+                            <td>Reduzir a dependência de um único ativo político (dólar) e diversificar para ativos reais que prosperam em um mundo multipolar e inflacionário.</td>
+                        </tr>
+                        <tr>
+                            <td class="profile">Investidor Individual (Americano / Europeu)</td>
+                            <td class="action sell">VENDER (Parcialmente)</td>
+                            <td>
+                                <ul class="allocation-list">
+                                    <li><strong>30% Ações de Valor (Setores Essenciais):</strong> <span>Empresas com poder de precificação (energia, saúde).</span></li>
+                                    <li><strong>30% ETFs de Mercados Emergentes:</strong> <span>Exposição ao crescimento fora do Ocidente.</span></li>
+                                    <li><strong>20% Ativos Reais (Imóveis, REITs):</strong> <span>Proteção contra a inflação.</span></li>
+                                    <li><strong>20% Bitcoin e Ouro:</strong> <span>Hedge descentralizado e apolítico.</span></li>
+                                </ul>
+                            </td>
+                            <td>Proteger o poder de compra contra a desvalorização do dólar causada pela impressão de dinheiro para financiar o déficit. Sair de ativos de renda fixa de longo prazo.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- PÁGINA 2: ORÇAMENTO -->
+        <div id="budget" class="page-content">
+            <div class="header"><h1>Orçamento de Segurança: Análise de Cenários</h1><p>Selecione um cenário para ver a mudança nas prioridades de gastos.</p></div>
+            <div class="controls-wrapper" style="justify-content: center;"><div class="scenario-controls"><button class="control-button active" data-scenario="trump">Doutrina Trump</button><button class="control-button" data-scenario="harris">Governo Harris</button></div></div>
+            <div class="treemap-wrapper"><canvas id="budget-chart"></canvas></div>
+        </div>
+
+        <!-- PÁGINA 3: TARIFAS -->
+        <div id="tariffs" class="page-content">
+            <div class="header"><h1>Guerra Comercial: Alvos Estratégicos</h1><p>O tamanho de cada bloco representa seu impacto geopolítico. A cor indica o nível de hostilidade.</p></div>
+            <div class="treemap-wrapper"><canvas id="tariffs-chart"></canvas></div>
+        </div>
+
+        <!-- PÁGINA 4: CREDORES -->
+        <div id="retaliation" class="page-content">
+            <div class="header"><h1>Credores da Dívida Americana: Análise Temporal</h1><p>O <strong>tamanho</strong> do bloco é a posse de Títulos do Tesouro. A <strong>cor</strong> indica a variação no período (Verde = Compra, Vermelho = Venda).</p></div>
+            <div class="controls-wrapper" style="justify-content: flex-end;"><div class="period-controls"><button class="control-button active" data-period="1">1M</button><button class="control-button" data-period="3">3M</button><button class="control-button" data-period="6">6M</button><button class="control-button" data-period="12">1Y</button></div></div>
+            <div class="treemap-wrapper"><canvas id="retaliation-chart"></canvas></div>
+        </div>
+        
+        <!-- PÁGINA 5: PAPER -->
+        <div id="paper" class="page-content">
+            <div class="header"><h1>O Paper Acadêmico</h1><p>A análise completa, em formato bilíngue, detalhando a tese, os dados e as conclusões.</p></div>
+            <div class="paper-container"><h2>The Yeltsin Doctrine and the End of the American Dream</h2><p style="margin-top: 20px;">Para uma análise aprofundada da metodologia, fontes e implicações geopolíticas, acesse o documento completo no nosso repositório.</p><p style="margin-top: 30px;"><a href="https://github.com/scoobiii/trumph_yeltsin-s" target="_blank" rel="noopener noreferrer">[GitHub] Acessar o Paper e os Dados</a></p><p style="margin-top: 40px; font-size: 0.9rem; color: #888;">Autores: GOS3, Manus, Grok, DeepSeek, Qwen, Gemini, GPT & Claude</p></div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-treemap@2.3.0/dist/chartjs-chart-treemap.min.js"></script>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
